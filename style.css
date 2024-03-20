@@ -1,0 +1,59 @@
+#One{
+background-color: darkgoldenrod;
+border-radius: 25px;
+padding: 20px;
+
+}
+#button1{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+#two{
+    
+    height: 500px;
+    background-image: url(image/bigburge.jpg);
+    animation-name: fifi;
+    animation-duration: 24s;
+    background-repeat: no-repeat;
+}
+    @keyframes  fifi {
+       from{background-image: url(image/bigburge.jpg);} 
+       to{background-image:url(image/baskett.jpg);}
+    }
+#food{
+    text-align: center;
+    font-size: x-large;
+    
+    
+    
+}
+#top{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#care{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+#party{
+    display: flex;
+    justify-content: center;
+    gap:5%;
+    margin-bottom: 5%;
+}
+#any{
+    text-align: center;
+    margin-top: 5%;
+    font-size: x-large;
+}
+#button2{
+    color: aliceblue;
+    background-color: rgb(58, 71, 71);
+    height: 50px;
+}
+
+
