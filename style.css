@@ -91,7 +91,42 @@ justify-content: space-around;
     border-radius: 20px;
     padding: 10px 20px;
 }
+#button7{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#app{
+    display: flex;
+    justify-content: center;
+}
+#tog{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: xx-large;
+}
+#ride{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+#button10{
+    color: aliceblue;
+    background-color: rgb(57, 80, 80);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#get{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    border-radius: 20px;
+    padding-left: 10px 20px;
+    margin-top: 20px;
 
 
+}
 
 
