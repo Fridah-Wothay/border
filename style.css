@@ -20,7 +20,7 @@ justify-content: space-around;
     background-image: url(image/bigburge.jpg);
     animation-name: fifi;
     animation-duration: 4s;
-    background-repeat: round
+    background-repeat: no-repeat;
     
 }
     @keyframes  fifi {
@@ -136,3 +136,161 @@ justify-content: space-around;
     justify-content: center;
 
 }
+@media screen  and (max-width: 650px){
+    #One{
+        background-color: darkgoldenrod;
+        border-radius: 25px;
+        padding: 20px;
+        
+        flex-direction: row;
+        justify-content: space-around;
+        
+        }     
+        
+        #two{
+            
+            height: 400px;
+            background-image: url(image/bigburge.jpg);
+            animation-name: fifi;
+            animation-duration: 4s;
+            background-repeat: no-repeat;
+            
+        }
+            @keyframes  fifi {
+               from{background-image: url(image/bigburge.jpg);} 
+               to{background-image:url(image/baskett.jpg);}
+               from{background-image: url(image/Dunked-wings-Picture-KFC);}
+            }
+        #food{
+            font-size: small;
+            margin-right: 12%;
+            margin-top: 5%;
+            
+            
+            
+        }
+        #top{
+            text-align: center;
+            
+        }
+        #care{
+            
+        
+            
+        }
+        #party{
+            
+            justify-content: center;
+            gap:5%;
+            margin-bottom: 5%;
+        }
+        #any{
+        
+            margin-top: 5%;
+            font-size: x-large;
+        }
+        #button2{
+            color: aliceblue;
+            background-color: rgb(34, 51, 51);
+            height: 50px;
+        }
+        
+    
+        .button4{
+            
+            
+            border-radius: 15px;
+            padding: 10px 20px;
+            color: aliceblue;
+            background-color: rgb(66, 141, 141);
+        }
+        #gig{
+            background-color: darkgoldenrod;
+            text-align: center;
+            font-size: small;
+            grid-template-columns: auto;
+        
+            border-radius: 25px;
+            padding: 20px;
+        
+        }
+        #but5{
+            border-radius: 15px;
+            padding: 10px 20px;
+        
+        }
+        #but6{
+            border-radius: 15px;
+            padding: 10px 20px;
+        
+        }
+        #button7{
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+        #app{
+            flex-wrap: wrap;
+            font-size: smaller;
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+        #tog{
+            
+        
+            font-size: small;
+        }
+        #ride{
+            font-size: small;
+            gap: 5%;
+        }
+        #button10{
+            color: aliceblue;
+            background-color: rgb(57, 80, 80);
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+        #get{
+            background-color: black;
+            color: white;
+            font-size: small;
+            grid-template-columns: auto;
+        
+            border-radius: 50px;
+        
+    
+        
+        
+        }
+        #click{
+            border-radius: 25px;
+            color: aliceblue;
+                background-color: blue;
+        }
+        .img1{
+            width: 20px;
+        } 
+        #get{
+            flex-wrap: wrap;
+        } 
+        .img2{
+            flex-wrap: wrap;
+        } 
+          #ride{
+            flex-wrap: wrap;
+            grid-template-columns: auto;
+          } 
+          .image{
+            width: 10px;
+          } 
+          #fork{
+            flex-wrap: wrap;
+          }
+          #top{
+            font-size: smaller;
+          }
+          #any{
+            font-size: smaller;
+          }
+
+}
+    
