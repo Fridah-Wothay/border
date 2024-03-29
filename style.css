@@ -23,6 +23,19 @@ justify-content: space-around;
     background-repeat: no-repeat;
     
 }
+
+.card{
+    max-width: 33rem;
+    background: #fff;
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0,0,0.2);
+    width:100%;
+    border-radius: 0.5rem;
+    margin-top: 5%;
+
+
+}
     @keyframes  fifi {
        from{background-image: url(image/bigburge.jpg);} 
        to{background-image:url(image/baskett.jpg);}
