@@ -21,6 +21,7 @@ justify-content: space-around;
     animation-name: fifi;
     animation-duration: 4s;
     background-repeat: no-repeat;
+    animation-iteration-count: infinite;
     
 }
 
@@ -33,6 +34,7 @@ justify-content: space-around;
     width:100%;
     border-radius: 0.5rem;
     margin-top: 5%;
+    
 
 
 }
@@ -142,13 +144,29 @@ justify-content: space-around;
 
 }
 #click{
-    border-radius: 25px;
-    color: aliceblue;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-
+border-radius: 25px;
+color: aliceblue;
+background-color: blue;
+display: flex;
+justify-content: center;
 }
+
+.rating{
+    display: inline-block;
+}
+.rating input{
+    display: none;
+}
+.rating label{
+    font-size: 70px;
+    color: #ffc700;
+    float: right;
+}
+.rating input:checked label{
+    color: #ffc700;
+}
+
+
 @media screen  and (max-width: 650px){
     #One{
         background-color: darkgoldenrod;
